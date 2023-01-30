@@ -19,10 +19,10 @@ int main() {
 	cout << "Enter the second number:";
 	cin >> b;
 	if (a > b) {
-		cout << "The smaller of the two is " << b <<endl;
+		cout << "The smaller of the two is " << b <<"\n";
 	}
 	if (b > a) {
-		cout << "The smaller of the two is " << a << endl;
+		cout << "The smaller of the two is " << a << "\n";
 	}
 	return 0;
 }
