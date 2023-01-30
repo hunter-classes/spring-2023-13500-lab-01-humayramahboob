@@ -23,17 +23,17 @@ int main(){
 	cin>> z;
 	if (x<y){
 		if (x<z) {
-			cout<< "The smaller of the three is "<<x <<endl;
+			cout<< "The smaller of the three is "<<x <<"\n";
 		}
 	}
 	if (y<x) {
 		if (y<z) {
-			cout << "The smaller of the three is " << y << endl;
+			cout << "The smaller of the three is " << y << "\n";
 		}
 	}
 	if (z<x) {
 		if (z<y) {
-			cout << "The smllaer of the three is " << z << endl;
+			cout << "The smllaer of the three is " << z << "\n";
 		}
 	}
 	return 0;
