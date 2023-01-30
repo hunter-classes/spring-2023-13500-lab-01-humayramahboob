@@ -38,17 +38,17 @@ int main(){
 	cin >> month;
 	if (month == 2){
 		if (leap(year)=="Common year"){
-			cout << "28 days";
+			cout << "28 days \n";
 		}
 		else if (leap(year)=="Leap year") {
-			cout << "29 days";
+			cout << "29 days \n";
 		}
 	}
 	else if (month== 4 ||month == 6 || month == 9 ||month == 11) {
-		cout << "30 days";
+		cout << "30 days \n";
 	}
 	else {
-		cout << "31 days";
+		cout << "31 days \n";
 	}
 	return 0;
 }
